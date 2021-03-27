@@ -1,0 +1,1010 @@
+body {
+  background: #05216a;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-perspective: 480px;
+          perspective: 480px;
+}
+
+div {
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.camera {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.camera.-x {
+  -webkit-transform: rotateX(-30deg);
+          transform: rotateX(-30deg);
+}
+
+.camera.-y {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.under-sea {
+  -webkit-transform: scale3d(0.4, 0.4, 0.4);
+          transform: scale3d(0.4, 0.4, 0.4);
+}
+
+.blowing-bubbles .bubble:nth-child(1) {
+  left: 39px;
+  width: 18px;
+  height: 18px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6862ms -2767ms linear infinite;
+          animation: bubbles 6862ms -2767ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(2) {
+  left: -13px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6127ms -6292ms linear infinite;
+          animation: bubbles 6127ms -6292ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(3) {
+  left: -29px;
+  width: 14px;
+  height: 14px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 3556ms -301ms linear infinite;
+          animation: bubbles 3556ms -301ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(4) {
+  left: -11px;
+  width: 18px;
+  height: 18px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6259ms -3263ms linear infinite;
+          animation: bubbles 6259ms -3263ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(5) {
+  left: -19px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6918ms -8988ms linear infinite;
+          animation: bubbles 6918ms -8988ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(6) {
+  left: -4px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5255ms -3811ms linear infinite;
+          animation: bubbles 5255ms -3811ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(7) {
+  left: 27px;
+  width: 21px;
+  height: 21px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5402ms -1917ms linear infinite;
+          animation: bubbles 5402ms -1917ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(8) {
+  left: 25px;
+  width: 30px;
+  height: 30px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4395ms -8076ms linear infinite;
+          animation: bubbles 4395ms -8076ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(9) {
+  left: -3px;
+  width: 30px;
+  height: 30px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4227ms -2202ms linear infinite;
+          animation: bubbles 4227ms -2202ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(10) {
+  left: 14px;
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6370ms -6329ms linear infinite;
+          animation: bubbles 6370ms -6329ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(11) {
+  left: 40px;
+  width: 21px;
+  height: 21px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 3375ms -3370ms linear infinite;
+          animation: bubbles 3375ms -3370ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(12) {
+  left: -23px;
+  width: 27px;
+  height: 27px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6770ms -887ms linear infinite;
+          animation: bubbles 6770ms -887ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(13) {
+  left: 8px;
+  width: 12px;
+  height: 12px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 3462ms -3074ms linear infinite;
+          animation: bubbles 3462ms -3074ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(14) {
+  left: -6px;
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6795ms -423ms linear infinite;
+          animation: bubbles 6795ms -423ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(15) {
+  left: -27px;
+  width: 22px;
+  height: 22px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 3223ms -6002ms linear infinite;
+          animation: bubbles 3223ms -6002ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(16) {
+  left: 5px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5165ms -3974ms linear infinite;
+          animation: bubbles 5165ms -3974ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(17) {
+  left: -12px;
+  width: 29px;
+  height: 29px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5997ms -9673ms linear infinite;
+          animation: bubbles 5997ms -9673ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(18) {
+  left: 13px;
+  width: 13px;
+  height: 13px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4819ms -2235ms linear infinite;
+          animation: bubbles 4819ms -2235ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(19) {
+  left: -24px;
+  width: 14px;
+  height: 14px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5645ms -3807ms linear infinite;
+          animation: bubbles 5645ms -3807ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(20) {
+  left: -20px;
+  width: 18px;
+  height: 18px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4290ms -5425ms linear infinite;
+          animation: bubbles 4290ms -5425ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(21) {
+  left: -29px;
+  width: 27px;
+  height: 27px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4993ms -7859ms linear infinite;
+          animation: bubbles 4993ms -7859ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(22) {
+  left: -14px;
+  width: 14px;
+  height: 14px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5460ms -2209ms linear infinite;
+          animation: bubbles 5460ms -2209ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(23) {
+  left: -12px;
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5979ms -8731ms linear infinite;
+          animation: bubbles 5979ms -8731ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(24) {
+  left: -1px;
+  width: 15px;
+  height: 15px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6234ms -3178ms linear infinite;
+          animation: bubbles 6234ms -3178ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(25) {
+  left: 32px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6507ms -6397ms linear infinite;
+          animation: bubbles 6507ms -6397ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(26) {
+  left: 1px;
+  width: 13px;
+  height: 13px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4165ms -278ms linear infinite;
+          animation: bubbles 4165ms -278ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(27) {
+  left: 29px;
+  width: 22px;
+  height: 22px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4949ms -453ms linear infinite;
+          animation: bubbles 4949ms -453ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(28) {
+  left: 39px;
+  width: 15px;
+  height: 15px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6571ms -9576ms linear infinite;
+          animation: bubbles 6571ms -9576ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(29) {
+  left: -15px;
+  width: 18px;
+  height: 18px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4442ms -2156ms linear infinite;
+          animation: bubbles 4442ms -2156ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(30) {
+  left: -19px;
+  width: 16px;
+  height: 16px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4488ms -9891ms linear infinite;
+          animation: bubbles 4488ms -9891ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(31) {
+  left: 40px;
+  width: 21px;
+  height: 21px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4981ms -2521ms linear infinite;
+          animation: bubbles 4981ms -2521ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(32) {
+  left: 12px;
+  width: 11px;
+  height: 11px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6305ms -7911ms linear infinite;
+          animation: bubbles 6305ms -7911ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(33) {
+  left: -15px;
+  width: 24px;
+  height: 24px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5864ms -9391ms linear infinite;
+          animation: bubbles 5864ms -9391ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(34) {
+  left: 38px;
+  width: 21px;
+  height: 21px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4784ms -4597ms linear infinite;
+          animation: bubbles 4784ms -4597ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(35) {
+  left: 30px;
+  width: 22px;
+  height: 22px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5273ms -8091ms linear infinite;
+          animation: bubbles 5273ms -8091ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(36) {
+  left: 8px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 4487ms -8922ms linear infinite;
+          animation: bubbles 4487ms -8922ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(37) {
+  left: -37px;
+  width: 18px;
+  height: 18px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5754ms -7009ms linear infinite;
+          animation: bubbles 5754ms -7009ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(38) {
+  left: -22px;
+  width: 23px;
+  height: 23px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 6223ms -5497ms linear infinite;
+          animation: bubbles 6223ms -5497ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(39) {
+  left: -8px;
+  width: 27px;
+  height: 27px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 5383ms -3111ms linear infinite;
+          animation: bubbles 5383ms -3111ms linear infinite;
+}
+
+.blowing-bubbles .bubble:nth-child(40) {
+  left: 11px;
+  width: 11px;
+  height: 11px;
+  border-top: 1px solid #26e8d4;
+  border-radius: 100%;
+  -webkit-animation: bubbles 3717ms -4048ms linear infinite;
+          animation: bubbles 3717ms -4048ms linear infinite;
+}
+
+@-webkit-keyframes bubbles {
+  0% {
+    -webkit-transform: translateY(400px);
+            transform: translateY(400px);
+  }
+  100% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+  }
+}
+
+@keyframes bubbles {
+  0% {
+    -webkit-transform: translateY(400px);
+            transform: translateY(400px);
+  }
+  100% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+  }
+}
+
+.fish-body .scale {
+  position: static;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 50px 100px;
+  -webkit-animation: fishColor 1000ms linear infinite alternate;
+          animation: fishColor 1000ms linear infinite alternate;
+}
+
+.fish-body .scale.-top.-front {
+  -webkit-transform: scale(1, 1) skewX(4.5deg) rotateY(-11deg) rotateX(23deg) translate(1.5px, 2.5px);
+          transform: scale(1, 1) skewX(4.5deg) rotateY(-11deg) rotateX(23deg) translate(1.5px, 2.5px);
+}
+
+.fish-body .scale.-top.-back {
+  -webkit-transform: scale(-1, 1) skewX(4.5deg) rotateY(-11deg) rotateX(23deg) translate(1.5px, 2.5px);
+          transform: scale(-1, 1) skewX(4.5deg) rotateY(-11deg) rotateX(23deg) translate(1.5px, 2.5px);
+}
+
+.fish-body .scale.-bottom.-front {
+  -webkit-transform: scale(1, -1) skewX(4.5deg) rotateY(-11deg) rotateX(23deg) translate(1.5px, 2.5px);
+          transform: scale(1, -1) skewX(4.5deg) rotateY(-11deg) rotateX(23deg) translate(1.5px, 2.5px);
+}
+
+.fish-body .scale.-bottom.-back {
+  -webkit-transform: scale(-1, -1) skewX(4.5deg) rotateY(-11deg) rotateX(23deg) translate(1.5px, 2.5px);
+          transform: scale(-1, -1) skewX(4.5deg) rotateY(-11deg) rotateX(23deg) translate(1.5px, 2.5px);
+}
+
+.fish-body > .half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 200px;
+  height: 100px;
+}
+
+.fish-body > .half.-left {
+  -webkit-transform: translateZ(-1px);
+          transform: translateZ(-1px);
+}
+
+.fish-body > .half.-left .scale.-top.-front {
+  -webkit-animation-delay: -200ms;
+          animation-delay: -200ms;
+}
+
+.fish-body > .half.-left .scale.-top.-back {
+  -webkit-animation-delay: -400ms;
+          animation-delay: -400ms;
+}
+
+.fish-body > .half.-left .scale.-bottom.-front {
+  -webkit-animation-delay: -600ms;
+          animation-delay: -600ms;
+}
+
+.fish-body > .half.-left .scale.-bottom.-back {
+  -webkit-animation-delay: -800ms;
+          animation-delay: -800ms;
+}
+
+.fish-body > .half.-right {
+  -webkit-transform: scaleZ(-1) translateZ(-1px);
+          transform: scaleZ(-1) translateZ(-1px);
+}
+
+.fish-body > .half.-right .scale.-top.-front {
+  -webkit-animation-delay: -1000ms;
+          animation-delay: -1000ms;
+}
+
+.fish-body > .half.-right .scale.-top.-back {
+  -webkit-animation-delay: -1200ms;
+          animation-delay: -1200ms;
+}
+
+.fish-body > .half.-right .scale.-bottom.-front {
+  -webkit-animation-delay: -1400ms;
+          animation-delay: -1400ms;
+}
+
+.fish-body > .half.-right .scale.-bottom.-back {
+  -webkit-animation-delay: -1600ms;
+          animation-delay: -1600ms;
+}
+
+.fish-tail {
+  top: 10px;
+  left: -30px;
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  -webkit-animation: fishMotion 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
+          animation: fishMotion 500ms cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
+}
+
+.fish-tail > .scale {
+  position: static;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 40px 30px;
+  -webkit-animation: fishColor 1000ms linear infinite alternate;
+          animation: fishColor 1000ms linear infinite alternate;
+}
+
+.fish-tail > .scale.-top {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fish-tail > .scale.-bottom {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+  -webkit-animation-delay: -200ms;
+          animation-delay: -200ms;
+}
+
+.swimming-fishes .rotate {
+  width: 400px;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-animation: rotateY 10000ms linear infinite;
+          animation: rotateY 10000ms linear infinite;
+}
+
+.swimming-fishes .swim:nth-child(1) .rotate {
+  width: 565px;
+  -webkit-animation-delay: -9523ms;
+          animation-delay: -9523ms;
+  -webkit-animation-duration: 11866ms;
+          animation-duration: 11866ms;
+}
+
+.swimming-fishes .swim:nth-child(1) .depth {
+  -webkit-transform: translateY(576px);
+          transform: translateY(576px);
+}
+
+.swimming-fishes .swim:nth-child(1) .shadow {
+  -webkit-transform: translate(-30px, 296px) rotateX(90deg);
+          transform: translate(-30px, 296px) rotateX(90deg);
+}
+
+.swimming-fishes .swim:nth-child(1) .fish {
+  -webkit-animation-delay: -740ms;
+          animation-delay: -740ms;
+}
+
+.swimming-fishes .swim:nth-child(1) .fish-tail {
+  -webkit-animation-delay: -440ms;
+          animation-delay: -440ms;
+}
+
+.swimming-fishes .swim:nth-child(2) .rotate {
+  width: 687px;
+  -webkit-animation-delay: -5525ms;
+          animation-delay: -5525ms;
+  -webkit-animation-duration: 11343ms;
+          animation-duration: 11343ms;
+}
+
+.swimming-fishes .swim:nth-child(2) .depth {
+  -webkit-transform: translateY(78px);
+          transform: translateY(78px);
+}
+
+.swimming-fishes .swim:nth-child(2) .shadow {
+  -webkit-transform: translate(-30px, 213px) rotateX(90deg);
+          transform: translate(-30px, 213px) rotateX(90deg);
+}
+
+.swimming-fishes .swim:nth-child(2) .fish {
+  -webkit-animation-delay: -2118ms;
+          animation-delay: -2118ms;
+}
+
+.swimming-fishes .swim:nth-child(2) .fish-tail {
+  -webkit-animation-delay: -1818ms;
+          animation-delay: -1818ms;
+}
+
+.swimming-fishes .swim:nth-child(3) .rotate {
+  width: 305px;
+  -webkit-animation-delay: -2938ms;
+          animation-delay: -2938ms;
+  -webkit-animation-duration: 13687ms;
+          animation-duration: 13687ms;
+}
+
+.swimming-fishes .swim:nth-child(3) .depth {
+  -webkit-transform: translateY(258px);
+          transform: translateY(258px);
+}
+
+.swimming-fishes .swim:nth-child(3) .shadow {
+  -webkit-transform: translate(-30px, 243px) rotateX(90deg);
+          transform: translate(-30px, 243px) rotateX(90deg);
+}
+
+.swimming-fishes .swim:nth-child(3) .fish {
+  -webkit-animation-delay: -581ms;
+          animation-delay: -581ms;
+}
+
+.swimming-fishes .swim:nth-child(3) .fish-tail {
+  -webkit-animation-delay: -281ms;
+          animation-delay: -281ms;
+}
+
+.swimming-fishes .swim:nth-child(4) .rotate {
+  width: 485px;
+  -webkit-animation-delay: -9238ms;
+          animation-delay: -9238ms;
+  -webkit-animation-duration: 11484ms;
+          animation-duration: 11484ms;
+}
+
+.swimming-fishes .swim:nth-child(4) .depth {
+  -webkit-transform: translateY(126px);
+          transform: translateY(126px);
+}
+
+.swimming-fishes .swim:nth-child(4) .shadow {
+  -webkit-transform: translate(-30px, 221px) rotateX(90deg);
+          transform: translate(-30px, 221px) rotateX(90deg);
+}
+
+.swimming-fishes .swim:nth-child(4) .fish {
+  -webkit-animation-delay: -877ms;
+          animation-delay: -877ms;
+}
+
+.swimming-fishes .swim:nth-child(4) .fish-tail {
+  -webkit-animation-delay: -577ms;
+          animation-delay: -577ms;
+}
+
+.swimming-fishes .swim:nth-child(5) .rotate {
+  width: 734px;
+  -webkit-animation-delay: -16ms;
+          animation-delay: -16ms;
+  -webkit-animation-duration: 8086ms;
+          animation-duration: 8086ms;
+}
+
+.swimming-fishes .swim:nth-child(5) .depth {
+  -webkit-transform: translateY(234px);
+          transform: translateY(234px);
+}
+
+.swimming-fishes .swim:nth-child(5) .shadow {
+  -webkit-transform: translate(-30px, 239px) rotateX(90deg);
+          transform: translate(-30px, 239px) rotateX(90deg);
+}
+
+.swimming-fishes .swim:nth-child(5) .fish {
+  -webkit-animation-delay: -1420ms;
+          animation-delay: -1420ms;
+}
+
+.swimming-fishes .swim:nth-child(5) .fish-tail {
+  -webkit-animation-delay: -1120ms;
+          animation-delay: -1120ms;
+}
+
+.swimming-fishes .swim:nth-child(6) .rotate {
+  width: 416px;
+  -webkit-animation-delay: -5595ms;
+          animation-delay: -5595ms;
+  -webkit-animation-duration: 10090ms;
+          animation-duration: 10090ms;
+}
+
+.swimming-fishes .swim:nth-child(6) .depth {
+  -webkit-transform: translateY(564px);
+          transform: translateY(564px);
+}
+
+.swimming-fishes .swim:nth-child(6) .shadow {
+  -webkit-transform: translate(-30px, 294px) rotateX(90deg);
+          transform: translate(-30px, 294px) rotateX(90deg);
+}
+
+.swimming-fishes .swim:nth-child(6) .fish {
+  -webkit-animation-delay: -2208ms;
+          animation-delay: -2208ms;
+}
+
+.swimming-fishes .swim:nth-child(6) .fish-tail {
+  -webkit-animation-delay: -1908ms;
+          animation-delay: -1908ms;
+}
+
+.swimming-fishes .swim:nth-child(7) .rotate {
+  width: 758px;
+  -webkit-animation-delay: -4948ms;
+          animation-delay: -4948ms;
+  -webkit-animation-duration: 11649ms;
+          animation-duration: 11649ms;
+}
+
+.swimming-fishes .swim:nth-child(7) .depth {
+  -webkit-transform: translateY(450px);
+          transform: translateY(450px);
+}
+
+.swimming-fishes .swim:nth-child(7) .shadow {
+  -webkit-transform: translate(-30px, 275px) rotateX(90deg);
+          transform: translate(-30px, 275px) rotateX(90deg);
+}
+
+.swimming-fishes .swim:nth-child(7) .fish {
+  -webkit-animation-delay: -1057ms;
+          animation-delay: -1057ms;
+}
+
+.swimming-fishes .swim:nth-child(7) .fish-tail {
+  -webkit-animation-delay: -757ms;
+          animation-delay: -757ms;
+}
+
+.swimming-fishes .swim:nth-child(8) .rotate {
+  width: 280px;
+  -webkit-animation-delay: -2138ms;
+          animation-delay: -2138ms;
+  -webkit-animation-duration: 13846ms;
+          animation-duration: 13846ms;
+}
+
+.swimming-fishes .swim:nth-child(8) .depth {
+  -webkit-transform: translateY(324px);
+          transform: translateY(324px);
+}
+
+.swimming-fishes .swim:nth-child(8) .shadow {
+  -webkit-transform: translate(-30px, 254px) rotateX(90deg);
+          transform: translate(-30px, 254px) rotateX(90deg);
+}
+
+.swimming-fishes .swim:nth-child(8) .fish {
+  -webkit-animation-delay: -1179ms;
+          animation-delay: -1179ms;
+}
+
+.swimming-fishes .swim:nth-child(8) .fish-tail {
+  -webkit-animation-delay: -879ms;
+          animation-delay: -879ms;
+}
+
+.swimming-fishes .swim:nth-child(9) .rotate {
+  width: 324px;
+  -webkit-animation-delay: -1599ms;
+          animation-delay: -1599ms;
+  -webkit-animation-duration: 10316ms;
+          animation-duration: 10316ms;
+}
+
+.swimming-fishes .swim:nth-child(9) .depth {
+  -webkit-transform: translateY(552px);
+          transform: translateY(552px);
+}
+
+.swimming-fishes .swim:nth-child(9) .shadow {
+  -webkit-transform: translate(-30px, 292px) rotateX(90deg);
+          transform: translate(-30px, 292px) rotateX(90deg);
+}
+
+.swimming-fishes .swim:nth-child(9) .fish {
+  -webkit-animation-delay: -631ms;
+          animation-delay: -631ms;
+}
+
+.swimming-fishes .swim:nth-child(9) .fish-tail {
+  -webkit-animation-delay: -331ms;
+          animation-delay: -331ms;
+}
+
+.swimming-fishes .swim:nth-child(10) .rotate {
+  width: 251px;
+  -webkit-animation-delay: -8687ms;
+          animation-delay: -8687ms;
+  -webkit-animation-duration: 12561ms;
+          animation-duration: 12561ms;
+}
+
+.swimming-fishes .swim:nth-child(10) .depth {
+  -webkit-transform: translateY(192px);
+          transform: translateY(192px);
+}
+
+.swimming-fishes .swim:nth-child(10) .shadow {
+  -webkit-transform: translate(-30px, 232px) rotateX(90deg);
+          transform: translate(-30px, 232px) rotateX(90deg);
+}
+
+.swimming-fishes .swim:nth-child(10) .fish {
+  -webkit-animation-delay: -1230ms;
+          animation-delay: -1230ms;
+}
+
+.swimming-fishes .swim:nth-child(10) .fish-tail {
+  -webkit-animation-delay: -930ms;
+          animation-delay: -930ms;
+}
+
+.fish-component {
+  top: -300px;
+  right: 0;
+  -webkit-transform: rotateY(90deg) translateX(-90px);
+          transform: rotateY(90deg) translateX(-90px);
+}
+
+.fish-component .fish {
+  -webkit-transform-origin: 100px 50px;
+          transform-origin: 100px 50px;
+  -webkit-animation: fishMotion 500ms -200ms cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
+          animation: fishMotion 500ms -200ms cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
+}
+
+.fish-component .shadow {
+  width: 300px;
+  height: 200px;
+  background: radial-gradient(ellipse at center, rgba(12, 30, 68, 0.2) 10%, rgba(14, 71, 145, 0) 50%);
+}
+
+@-webkit-keyframes rotateX {
+  0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+
+@keyframes rotateX {
+  0% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+}
+
+@-webkit-keyframes rotateY {
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotateY {
+  0% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes rotateZ {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotateZ {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@-webkit-keyframes fishColor {
+  0% {
+    border-color: transparent transparent #f21141 transparent;
+  }
+  100% {
+    border-color: transparent transparent #e1138b transparent;
+  }
+}
+
+@keyframes fishColor {
+  0% {
+    border-color: transparent transparent #f21141 transparent;
+  }
+  100% {
+    border-color: transparent transparent #e1138b transparent;
+  }
+}
+
+@-webkit-keyframes fishMotion {
+  0% {
+    -webkit-transform: rotateY(20deg);
+            transform: rotateY(20deg);
+  }
+  100% {
+    -webkit-transform: rotateY(-20deg);
+            transform: rotateY(-20deg);
+  }
+}
+
+@keyframes fishMotion {
+  0% {
+    -webkit-transform: rotateY(20deg);
+            transform: rotateY(20deg);
+  }
+  100% {
+    -webkit-transform: rotateY(-20deg);
+            transform: rotateY(-20deg);
+  }
+}
+/*# sourceMappingURL=styles.css.map */

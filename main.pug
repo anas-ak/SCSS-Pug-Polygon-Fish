@@ -1,0 +1,33 @@
+mixin cameras 
+    .camera.-x 
+        .camera.-y 
+            .camera.-z 
+                block 
+
+mixin bodyScales    
+    .scale.-top.-front 
+    .scale.-top.-back 
+    .scale.-bottom.-front 
+    .scale.-bottom.-back 
+
++cameras()
+    .under-sea 
+        .blowing-bubbles 
+            - for(i = 0; i < 40; i++)
+                .bubble 
+        .swimming-fishes    
+            - for(i = 0; i < 10; i++)
+                .swim 
+                    .depth 
+                        .rotate 
+                            .fish-component 
+                                .shadow 
+                                .fish 
+                                    .fish-body 
+                                        .half.-left    
+                                            +bodyScales()
+                                        .half.-right    
+                                            +bodyScales()
+                                    .fish-tail 
+                                        .scale.-top 
+                                        .scale.-bottom
